@@ -1,0 +1,63 @@
+//- Master layout
+
+doctype html
+html(lang='en')
+  head
+    //- Stylesheets
+
+    link(href='../assets/styles/vendor/unicons-2.0.1/css/unicons.css' rel='stylesheet')
+    link(href='../assets/styles/base/vertical-responsive-menu.min.css' rel='stylesheet')
+    link(href='../assets/styles/base/style.css' rel='stylesheet')
+    link(href='../assets/styles/base/responsive.css' rel='stylesheet')
+    link(href='../assets/styles/base/night-mode.css' rel='stylesheet')
+    //- Vendor Stylesheets
+    link(href='../assets/styles/vendor/fontawesome-free/css/all.min.css' rel='stylesheet')
+    link(href='../assets/styles/vendor/OwlCarousel/assets/owl.carousel.css' rel='stylesheet')
+    link(href='../assets/styles/vendor/OwlCarousel/assets/owl.theme.default.min.css' rel='stylesheet')
+    link(href='../assets/styles/vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet')
+    link(href='../assets/styles/vendor/semantic/semantic.min.css' rel='stylesheet' type='text/css' )
+    //- Meta
+    //- meta(charset='UTF-8')
+    //- meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    //- meta(http-equiv='X-UA-Compatible', content='ie=edge')
+
+    //- meta(name='msapplication-TileColor', content='#0E0E0E')
+    //- meta(name='theme-color', content='#0E0E0E')
+
+
+    //- Preload fonts
+    //- link(type='font/woff', href=require('source/assets/fonts/Quicksand-Bold.woff'), rel='prefetch', as='font', crossorigin)
+    //- link(type='font/woff', href=require('source/assets/fonts/Quicksand-Medium.woff'), rel='prefetch', as='font', crossorigin)
+    //- link(type='font/woff', href=require('source/assets/fonts/Quicksand-Regular.woff'), rel='prefetch', as='font', crossorigin)
+    //- link(type='font/woff', href=require('source/assets/fonts/Quicksand-Light.woff'), rel='prefetch', as='font', crossorigin)
+
+    //- Title
+    block title
+      title Your project!
+
+   
+    
+  body
+
+    //- Menu
+    include ../components/menu.pug
+    include ../components/sidebar.pug
+
+    //- block content
+    
+    block content
+    
+      
+    //- Footer
+
+    //- block scripts
+    block scripts
+
+
+    //- script(src='../assets/scripts/jquery-3.3.1.min.js')
+    //- script(src='../assets/scripts/vertical-responsive-menu.min.js')
+    //- script(src='../assets/styles/vendor/bootstrap/js/bootstrap.bundle.min.js')
+    //- script(src='../assets/styles/vendor/OwlCarousel/owl.carousel.js')
+    //- script(src='../assets/styles/vendor/semantic/semantic.min.js')
+    //- script(src='../assets/scripts/custom.js')
+    //- script(src='../assets/scripts/night-mode.js')

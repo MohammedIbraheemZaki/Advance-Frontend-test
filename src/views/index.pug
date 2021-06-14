@@ -1,0 +1,1182 @@
+extends ./layouts/master.pug
+
+block title
+  title My Page - Home
+
+block content
+
+  // Menu
+  +menu('home')
+    //- Desktop page
+
+  .wrapper
+    #vue
+    .sa4d25
+      .container-fluid
+        .row
+          .col-xl-9.col-lg-8
+            .section3125
+              h4.item_title Live Streams
+              a.see150(href='live_streams.html') See all
+              .la5lo1
+                .owl-carousel.live_stream.owl-theme
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='../assets/images/left-imgs/img-1.jpg' alt='')
+                        h4 John Doe
+                        p
+                          | live
+                          span
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='../assets/images/left-imgs/img-2.jpg' alt='')
+                        h4 Jassica
+                        p
+                          | live
+                          span
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='../assets/images/left-imgs/img-9.jpg' alt='')
+                        h4 Edututs+
+                        p
+                          | live
+                          span
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='../assets/images/left-imgs/img-3.jpg' alt='')
+                        h4 Joginder Singh
+                        p
+                          | live
+                          span
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='../assets/images/left-imgs/img-4.jpg' alt='')
+                        h4 Zoena
+                        p
+                          | live
+                          span
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='../assets/images/left-imgs/img-5.jpg' alt='')
+                        h4 Albert Dua
+                        p
+                          | live
+                          span
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='../assets/images/left-imgs/img-6.jpg' alt='')
+                        h4 Ridhima
+                        p
+                          | live
+                          span
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='images/left-imgs/img-7.jpg' alt='')
+                        h4 Amritpal
+                        p
+                          | live
+                          span
+                  .item
+                    .stream_1
+                      a.stream_bg(href='live_output.html')
+                        img(src='../assets/images/left-imgs/img-8.jpg' alt='')
+                        h4 Jimmy
+                        p
+                          | live
+                          span
+            .section3125.mt-50
+              h4.item_title Featured Courses
+              a.see150(href='#') See all
+              .la5lo1
+                .owl-carousel.featured_courses.owl-theme
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-1.jpg' alt='')
+                        .course-overlay
+                          .badge_seller Bestseller
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 4.5
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 25 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 109k views
+                          span.vdt14 15 days ago
+                        a.crse14s(href='course_detail_view.html')
+                          | Complete Python Bootcamp: Go from zero to hero
+                          | in Python 3
+                        a.crse-cate(href='#') Web Development | Python
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') John Doe
+                          .prce142 $10
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-2.jpg' alt='')
+                        .course-overlay
+                          .badge_seller Bestseller
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 4.5
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 28 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 5M views
+                          span.vdt14 15 days ago
+                        a.crse14s(href='course_detail_view.html')
+                          | The Complete JavaScript Course 2020: Build
+                          | Real Projects!
+                        a.crse-cate(href='#') Development | JavaScript
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Jassica William
+                          .prce142 $5
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-3.jpg' alt='')
+                        .course-overlay
+                          .badge_seller Bestseller
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 4.5
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 12 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 1M views
+                          span.vdt14 18 days ago
+                        a.crse14s(href='course_detail_view.html')
+                          | Beginning C++ Programming - From Beginner to
+                          | Beyond
+                        a.crse-cate(href='#') Development | C++
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Joginder Singh
+                          .prce142 $13
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-4.jpg' alt='')
+                        .course-overlay
+                          .badge_seller Bestseller
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 5.0
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 1 hour
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 153k views
+                          span.vdt14 3 months ago
+                        a.crse14s(href='course_detail_view.html')
+                          | The Complete Digital Marketing Course - 12
+                          | Courses in 1
+                        a.crse-cate(href='#') Digital Marketing | Marketing
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Poonam Verma
+                          .prce142 $12
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-5.jpg' alt='')
+                        .course-overlay
+                          .badge_seller Bestseller
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 4.5
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 1.5 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 53k views
+                          span.vdt14 14 days ago
+                        a.crse14s(href='course_detail_view.html')
+                          | Microsoft Excel - Excel from Beginner to
+                          | Advanced
+                        a.crse-cate(href='#') Office Productivity | Excel
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Rock William
+                          .prce142 $6
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-6.jpg' alt='')
+                        .course-overlay
+                          .badge_seller Bestseller
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 5.0
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 36 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 253k views
+                          span.vdt14 10 days ago
+                        a.crse14s(href='course_detail_view.html')
+                          | Angular 8 - The Complete Guide (2020
+                          | Edition)
+                        a.crse-cate(href='#') Development | Angular
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') John Doe
+                          .prce142 $15
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-7.jpg' alt='')
+                        .course-overlay
+                          .badge_seller Bestseller
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 5.0
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 5.4 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 109k views
+                          span.vdt14 15 days ago
+                        a.crse14s(href='course_detail_view.html')
+                          | WordPress for Beginners: Create a Website Step
+                          | by Step
+                        a.crse-cate(href='#') Design | Wordpress
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Sabnam SIngh
+                          .prce142 $18
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-8.jpg' alt='')
+                        .course-overlay
+                          .badge_seller Bestseller
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 4.0
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 23 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 196k views
+                          span.vdt14 1 month ago
+                        a.crse14s(href='course_detail_view.html')
+                          | CSS - The Complete Guide 2020 (incl. Flexbox,
+                          | Grid &amp; Sass)
+                        a.crse-cate(href='#') Design | CSS
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Jashanpreet Singh
+                          .prce142 $10
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+            .section3125.mt-30
+              h4.item_title Newest Courses
+              a.see150(href='#') See all
+              .la5lo1
+                .owl-carousel.featured_courses.owl-theme
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-14.jpg' alt='')
+                        .course-overlay
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 12 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 15 views
+                          span.vdt14 10 min ago
+                        a.crse14s(href='course_detail_view.html')
+                          | Build Responsive Real World Websites with
+                          | HTML5 and CSS3
+                        a.crse-cate(href='#') Development | CSS
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') John Doe
+                          .prce142 $4
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-11.jpg' alt='')
+                        .course-overlay
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 28 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 5 views
+                          span.vdt14 15 Min ago
+                        a.crse14s(href='course_detail_view.html')
+                          | The Complete JavaScript Course 2020: Build
+                          | Real Projects!
+                        a.crse-cate(href='#') Development | JavaScript
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Jassica William
+                          .prce142 $5
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-18.jpg' alt='')
+                        .course-overlay
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 15 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 25 views
+                          span.vdt14 2 Hour ago
+                        a.crse14s(href='course_detail_view.html')
+                          | The Complete Front-End Web Development
+                          | Course!
+                        a.crse-cate(href='#') Development | Web Development
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Joginder Singh
+                          .prce142 $9
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-19.jpg' alt='')
+                        .course-overlay
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 5.0
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 1 hour
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 15 views
+                          span.vdt14 6 hours ago
+                        a.crse14s(href='course_detail_view.html')
+                          | Ethical Hacking - Most Advanced Level
+                          | Penetration Testing
+                        a.crse-cate(href='#') IT &amp; Software | Ethical Hacking
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Poonam Verma
+                          .prce142 $10
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='#')
+                        img(src='../assets/images/courses/img-12.jpg' alt='')
+                        .course-overlay
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 3.5
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 28 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 45 views
+                          span.vdt14 20 hours ago
+                        a.crse14s(href='course_detail_view.html')
+                          | Advanced CSS and Sass: Flexbox, Grid,
+                          | Animations and More!
+                        a.crse-cate(href='#') Development | Sass
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Rock William
+                          .prce142 $6
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='#')
+                        img(src='../assets/images/courses/img-13.jpg' alt='')
+                        .course-overlay
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 30 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 20 Views
+                          span.vdt14 1 day ago
+                        a.crse14s(href='course_detail_view.html')
+                          | The Complete Node.js Developer Course (3rd
+                          | Edition)
+                        a.crse-cate(href='#') Development | Node.js
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') John Doe
+                          .prce142 $3
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='#')
+                        img(src='../assets/images/courses/img-20.jpg' alt='')
+                        .course-overlay
+                          .crse_reviews
+                            i.uil.uil-star
+                            | 5.0
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 21 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 200 Views
+                          span.vdt14 4 days ago
+                        a.crse14s(href='course_detail_view.html')
+                          | WordPress Development - Themes, Plugins &amp;
+                          | Gutenberg
+                        a.crse-cate(href='#') Design | Wordpress
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Joy Dua
+                          .prce142 $14
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+                  .item
+                    .fcrse_1.mb-20
+                      a.fcrse_img(href='course_detail_view.html')
+                        img(src='../assets/images/courses/img-16.jpg' alt='')
+                        .course-overlay
+                          span.play_btn1
+                            i.uil.uil-play
+                          .crse_timer
+                            | 22 hours
+                      .fcrse_content
+                        .eps_dots.more_dropdown
+                          a(href='#')
+                            i.uil.uil-ellipsis-v
+                          .dropdown-content
+                            span
+                              i.uil.uil-share-alt
+                              | Share
+                            span
+                              i.uil.uil-heart
+                              | Save
+                            span
+                              i.uil.uil-ban
+                              | Not Interested
+                            span
+                              i.uil.uil-windsock
+                              | Report
+                        .vdtodt
+                          span.vdt14 11 Views
+                          span.vdt14 5 Days ago
+                        a.crse14s(href='course_detail_view.html')
+                          | Vue JS 2 - The Complete Guide (incl. Vue
+                          | Router &amp; Vuex)
+                        a.crse-cate(href='#') Development | Vue JS
+                        .auth1lnkprce
+                          p.cr1fot
+                            | By 
+                            a(href='#') Manreet Kaur
+                          .prce142 $10
+                          button.shrt-cart-btn(title='cart')
+                            i.uil.uil-shopping-cart-alt
+            .section3126
+              .row
+                .col-xl-6.col-lg-12.col-md-6
+                  .value_props
+                    .value_icon
+                      i.uil.uil-history
+                    .value_content
+                      h4 Go at your own pace
+                      p Enjoy lifetime access to courses on Edututs+&apos;s website
+                .col-xl-6.col-lg-12.col-md-6
+                  .value_props
+                    .value_icon
+                      i.uil.uil-user-check
+                    .value_content
+                      h4 Learn from industry experts
+                      p Select from top instructors around the world
+                .col-xl-6.col-lg-12.col-md-6
+                  .value_props
+                    .value_icon
+                      i.uil.uil-play-circle
+                    .value_content
+                      h4 Find video courses on almost any topic
+                      p Build your library for your career and personal growth
+                .col-xl-6.col-lg-12.col-md-6
+                  .value_props
+                    .value_icon
+                      i.uil.uil-presentation-play
+                    .value_content
+                      h4 100,000 online courses
+                      p Explore a variety of fresh topics
+            .section3125.mt-50
+              h4.item_title Popular Instructors
+              a.see150(href='all_instructor.html') See all
+              .la5lo1
+                .owl-carousel.top_instrutors.owl-theme
+                  .item
+                    .fcrse_1.mb-20
+                      .tutor_img
+                        a(href='instructor_profile_view.html')
+                          img(src='../assets/images/left-imgs/img-1.jpg' alt='')
+                      .tutor_content_dt
+                        .tutor150
+                          a.tutor_name(href='instructor_profile_view.html') John Doe
+                          .mef78(title='Verify')
+                            i.uil.uil-check-circle
+                        .tutor_cate Wordpress &amp; Plugin Tutor
+                        ul.tutor_social_links
+                          li
+                            a.fb(href='#')
+                              i.fab.fa-facebook-f
+                          li
+                            a.tw(href='#')
+                              i.fab.fa-twitter
+                          li
+                            a.ln(href='#')
+                              i.fab.fa-linkedin-in
+                          li
+                            a.yu(href='#')
+                              i.fab.fa-youtube
+                        .tut1250
+                          span.vdt15 100K Students
+                          span.vdt15 15 Courses
+                  .item
+                    .fcrse_1.mb-20
+                      .tutor_img
+                        a(href='instructor_profile_view.html')
+                          img(src='../assets/images/left-imgs/img-2.jpg' alt='')
+                      .tutor_content_dt
+                        .tutor150
+                          a.tutor_name(href='instructor_profile_view.html') Kerstin Cable
+                          .mef78(title='Verify')
+                            i.uil.uil-check-circle
+                        .tutor_cate Language Learning Coach, Writer, Online Tutor
+                        ul.tutor_social_links
+                          li
+                            a.fb(href='#')
+                              i.fab.fa-facebook-f
+                          li
+                            a.tw(href='#')
+                              i.fab.fa-twitter
+                          li
+                            a.ln(href='#')
+                              i.fab.fa-linkedin-in
+                          li
+                            a.yu(href='#')
+                              i.fab.fa-youtube
+                        .tut1250
+                          span.vdt15 14K Students
+                          span.vdt15 11 Courses
+                  .item
+                    .fcrse_1.mb-20
+                      .tutor_img
+                        a(href='instructor_profile_view.html')
+                          img(src='../assets/images/left-imgs/img-3.jpg' alt='')
+                      .tutor_content_dt
+                        .tutor150
+                          a.tutor_name(href='instructor_profile_view.html') Jose Portilla
+                          .mef78(title='Verify')
+                            i.uil.uil-check-circle
+                        .tutor_cate Head of Data Science, Pierian Data Inc.
+                        ul.tutor_social_links
+                          li
+                            a.fb(href='#')
+                              i.fab.fa-facebook-f
+                          li
+                            a.tw(href='#')
+                              i.fab.fa-twitter
+                          li
+                            a.ln(href='#')
+                              i.fab.fa-linkedin-in
+                          li
+                            a.yu(href='#')
+                              i.fab.fa-youtube
+                        .tut1250
+                          span.vdt15 1M Students
+                          span.vdt15 25 Courses
+                  .item
+                    .fcrse_1.mb-20
+                      .tutor_img
+                        a(href='instructor_profile_view.html')
+                          img(src='../assets/images/left-imgs/img-4.jpg' alt='')
+                      .tutor_content_dt
+                        .tutor150
+                          a.tutor_name(href='instructor_profile_view.html') Farhat Amin
+                          .mef78(title='Verify')
+                            i.uil.uil-check-circle
+                        .tutor_cate Cookery Coach
+                        ul.tutor_social_links
+                          li
+                            a.fb(href='#')
+                              i.fab.fa-facebook-f
+                          li
+                            a.tw(href='#')
+                              i.fab.fa-twitter
+                          li
+                            a.ln(href='#')
+                              i.fab.fa-linkedin-in
+                          li
+                            a.yu(href='#')
+                              i.fab.fa-youtube
+                        .tut1250
+                          span.vdt15 1.5K Students
+                          span.vdt15 9 Courses
+                  .item
+                    .fcrse_1.mb-20
+                      .tutor_img
+                        a(href='instructor_profile_view.html')
+                          img(src='../assets/images/left-imgs/img-5.jpg' alt='')
+                      .tutor_content_dt
+                        .tutor150
+                          a.tutor_name(href='instructor_profile_view.html') Kyle Pew
+                          .mef78(title='Verify')
+                            i.uil.uil-check-circle
+                        .tutor_cate Microsoft Certified Trainer - 380,000+ Udemy Students
+                        ul.tutor_social_links
+                          li
+                            a.fb(href='#')
+                              i.fab.fa-facebook-f
+                          li
+                            a.tw(href='#')
+                              i.fab.fa-twitter
+                          li
+                            a.ln(href='#')
+                              i.fab.fa-linkedin-in
+                          li
+                            a.yu(href='#')
+                              i.fab.fa-youtube
+                        .tut1250
+                          span.vdt15 300K Students
+                          span.vdt15 18 Courses
+                  .item
+                    .fcrse_1.mb-20
+                      .tutor_img
+                        a(href='instructor_profile_view.html')
+                          img(src='../assets/images/left-imgs/img-7.jpg' alt='')
+                      .tutor_content_dt
+                        .tutor150
+                          a.tutor_name(href='instructor_profile_view.html') Jaysen Batchelor
+                          .mef78(title='Verify')
+                            i.uil.uil-check-circle
+                        .tutor_cate Illustrator &amp; Designer
+                        ul.tutor_social_links
+                          li
+                            a.fb(href='#')
+                              i.fab.fa-facebook-f
+                          li
+                            a.tw(href='#')
+                              i.fab.fa-twitter
+                          li
+                            a.ln(href='#')
+                              i.fab.fa-linkedin-in
+                          li
+                            a.yu(href='#')
+                              i.fab.fa-youtube
+                        .tut1250
+                          span.vdt15 491K Students
+                          span.vdt15 13 Courses
+                  .item
+                    .fcrse_1.mb-20
+                      .tutor_img
+                        a(href='instructor_profile_view.html')
+                          img(src='../assets/images/left-imgs/img-8.jpg' alt='')
+                      .tutor_content_dt
+                        .tutor150
+                          a.tutor_name(href='instructor_profile_view.html') Quinton Batchelor
+                          .mef78(title='Verify')
+                            i.uil.uil-check-circle
+                        .tutor_cate Photographer &amp; Instructor
+                        ul.tutor_social_links
+                          li
+                            a.fb(href='#')
+                              i.fab.fa-facebook-f
+                          li
+                            a.tw(href='#')
+                              i.fab.fa-twitter
+                          li
+                            a.ln(href='#')
+                              i.fab.fa-linkedin-in
+                          li
+                            a.yu(href='#')
+                              i.fab.fa-youtube
+                        .tut1250
+                          span.vdt15 364K Students
+                          span.vdt15 6 Courses
+                  .item
+                    .fcrse_1.mb-20
+                      .tutor_img
+                        a(href='instructor_profile_view.html')
+                          img(src='../assets/images/left-imgs/img-6.jpg' alt='')
+                      .tutor_content_dt
+                        .tutor150
+                          a.tutor_name(href='instructor_profile_view.html') Eli Natoli
+                          .mef78(title='Verify')
+                            i.uil.uil-check-circle
+                        .tutor_cate Entrepreneur - Passionate Teacher
+                        ul.tutor_social_links
+                          li
+                            a.fb(href='#')
+                              i.fab.fa-facebook-f
+                          li
+                            a.tw(href='#')
+                              i.fab.fa-twitter
+                          li
+                            a.ln(href='#')
+                              i.fab.fa-linkedin-in
+                          li
+                            a.yu(href='#')
+                              i.fab.fa-youtube
+                        .tut1250
+                          span.vdt15 615K Students
+                          span.vdt15 12 Courses
+          .col-xl-3.col-lg-4
+            .right_side
+              .fcrse_2.mb-30
+                .tutor_img
+                  a(href='my_instructor_profile_view.html')
+                    img(src='../assets/images/left-imgs/img-10.jpg' alt='')
+                .tutor_content_dt
+                  .tutor150
+                    a.tutor_name(href='my_instructor_profile_view.html') Joginder Singh
+                    .mef78(title='Verify')
+                      i.uil.uil-check-circle
+                  .tutor_cate Web Developer, Designer, and Teacher
+                  ul.tutor_social_links
+                    li
+                      a.fb(href='#')
+                        i.fab.fa-facebook-f
+                    li
+                      a.tw(href='#')
+                        i.fab.fa-twitter
+                    li
+                      a.ln(href='#')
+                        i.fab.fa-linkedin-in
+                    li
+                      a.yu(href='#')
+                        i.fab.fa-youtube
+                  .tut1250
+                    span.vdt15 615K Students
+                    span.vdt15 12 Courses
+                  a.prfle12link(href='my_instructor_profile_view.html') Go To Profile
+              .fcrse_3
+                .cater_ttle
+                  h4 Live Streaming
+                .live_text
+                  .live_icon
+                    i.uil.uil-kayak
+                  .live-content
+                    p Set up your channel and stream live to your students
+                    button.live_link(onclick="window.location.href = 'add_streaming.html';")
+                      | Get
+                      | Started
+                    span.livinfo Info : This feature only for &apos;Instructors&apos;.
+              .get1452
+                h4 Get personalized recommendations
+                p Answer a few questions for your top picks
+                button.Get_btn(onclick="window.location.href = '#';") Get Started
+              .fcrse_3
+                .cater_ttle
+                  h4 Top Categories
+                ul.allcate15
+                  li
+                    a.ct_item(href='#')
+                      i.uil.uil-arrow
+                      | Development
+                  li
+                    a.ct_item(href='#')
+                      i.uil.uil-graph-bar
+                      | Business
+                  li
+                    a.ct_item(href='#')
+                      i.uil.uil-monitor
+                      | IT and Software
+                  li
+                    a.ct_item(href='#')
+                      i.uil.uil-ruler
+                      | Design
+                  li
+                    a.ct_item(href='#')
+                      i.uil.uil-chart-line
+                      | Marketing
+                  li
+                    a.ct_item(href='#')
+                      i.uil.uil-book-open
+                      | Personal Development
+                  li
+                    a.ct_item(href='#')
+                      i.uil.uil-camera
+                      | Photography
+                  li
+                    a.ct_item(href='#')
+                      i.uil.uil-music
+                      | Music
+              .strttech120
+                h4 Become an Instructor
+                p
+                  | Top instructors from around the world teach millions of students on Cursus. We provide the tools and
+                  | skills to teach what you love.
+                button.Get_btn(onclick="window.location.href = '#';") Start Teaching
+          .col-xl-12.col-lg-12
+            .section3125.mt-30
+              h4.item_title What Our Student Have Today
+              .la5lo1
+                .owl-carousel.Student_says.owl-theme
+                  .item
+                    .fcrse_4.mb-20
+                      .say_content
+                        p
+                          | &quot;Donec ac ex eu arcu euismod feugiat. In venenatis bibendum nisi, in placerat eros ultricies
+                          | vitae. Praesent pellentesque blandit scelerisque. Suspendisse potenti.&quot;
+                      .st_group
+                        .stud_img
+                          img(src='../assets/images/left-imgs/img-4.jpg' alt='')
+                        h4 Jassica William
+                  .item
+                    .fcrse_4.mb-20
+                      .say_content
+                        p
+                          | &quot;Cras id enim lectus. Fusce at arcu tincidunt, iaculis libero quis, vulputate mauris. Morbi
+                          | facilisis vitae ligula id aliquam. Nunc consectetur malesuada bibendum.&quot;
+                      .st_group
+                        .stud_img
+                          img(src='../assets/images/left-imgs/img-1.jpg' alt='')
+                        h4 Rock Smith
+                  .item
+                    .fcrse_4.mb-20
+                      .say_content
+                        p
+                          | &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad
+                          | litora torquent per conubia nostra, per inceptos himenaeos eros ac, sagittis orci.&quot;
+                      .st_group
+                        .stud_img
+                          img(src='../assets/images/left-imgs/img-7.jpg' alt='')
+                        h4 Luoci Marchant
+                  .item
+                    .fcrse_4.mb-20
+                      .say_content
+                        p
+                          | &quot;Nulla bibendum lectus pharetra, tempus eros ac, sagittis orci. Suspendisse posuere dolor
+                          | neque, at finibus mauris lobortis in. Pellentesque vitae laoreet tortor.&quot;
+                      .st_group
+                        .stud_img
+                          img(src='../assets/images/left-imgs/img-6.jpg' alt='')
+                        h4 Poonam Sharma
+                  .item
+                    .fcrse_4.mb-20
+                      .say_content
+                        p
+                          | &quot;Curabitur placerat justo ac mauris condimentum ultricies. In magna tellus, eleifend et
+                          | volutpat id, sagittis vitae est. Pellentesque vitae laoreet tortor.&quot;
+                      .st_group
+                        .stud_img
+                          img(src='../assets/images/left-imgs/img-3.jpg' alt='')
+                        h4 Davinder Singh
+
+    include ./components/footer.pug
+    //- section.page.home__page
+    //-   h1.page__title # Index page

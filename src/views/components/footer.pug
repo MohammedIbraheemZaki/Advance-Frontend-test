@@ -1,0 +1,138 @@
+//- src/views/components/footer.pug
+
+footer.footer.mt-30
+  .container
+    .row
+      .col-lg-3.col-md-3.col-sm-6
+        .item_f1
+          //- a(href='about.pug') About
+          a(href='/about', class=currentPage === 'about' ? 'active' : '') About
+          a(href='/blog', class=currentPage === 'about' ? 'active' : '') Blog
+          //- a(href='our_blog.html') Blog
+          a(href='career.html') Careers
+          a(href='press.html') Press
+      .col-lg-3.col-md-3.col-sm-6
+        .item_f1
+          a(href='help.html') Help
+          a(href='coming_soon.html') Advertise
+          a(href='coming_soon.html') Developers
+          a(href='contact_us.html') Contact Us
+      .col-lg-3.col-md-3.col-sm-6
+        .item_f1
+          a(href='terms_of_use.html') Copyright Policy
+          a(href='terms_of_use.html') Terms
+          a(href='terms_of_use.html') Privacy Policy
+          a(href='sitemap.html') Sitemap
+      .col-lg-3.col-md-3.col-sm-6
+        .item_f3
+          a.btn1542(href='#') Teach on Cursus
+          .lng_btn
+            #languages.ui.language.bottom.right.pointing.dropdown.floating(data-content='Select Language')
+              a(href='#')
+                i.uil.uil-globe.lft
+                | Language
+                i.uil.uil-angle-down.rgt
+              .menu
+                .scrolling.menu
+                  .item(data-percent='100' data-value='en' data-english='English')
+                    span.description English
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;English
+                  .item(data-percent='94' data-value='da' data-english='Danish')
+                    span.description dansk
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Danish
+                  .item(data-percent='94' data-value='es' data-english='Spanish')
+                    span.description Espa&ntilde;ol
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Spanish
+                  .item(data-percent='34' data-value='zh' data-english='Chinese')
+                    span.description &#x7B80;&#x4F53;&#x4E2D;&#x6587;
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Chinese
+                  .item(data-percent='54' data-value='zh_TW' data-english='Chinese (Taiwan)')
+                    span.description &#x4E2D;&#x6587; (&#x81FA;&#x7063;)
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Chinese (Taiwan)
+                  .item(data-percent='79' data-value='fa' data-english='Persian')
+                    span.description &#x67E;&#x627;&#x631;&#x633;&#x6CC;
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Persian
+                  .item(data-percent='41' data-value='fr' data-english='French')
+                    span.description Fran&ccedil;ais
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;French
+                  .item(data-percent='37' data-value='el' data-english='Greek')
+                    span.description &epsi;&lambda;&lambda;&eta;&nu;&iota;&kappa;&#x3AC;
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Greek
+                  .item(data-percent='37' data-value='ru' data-english='Russian')
+                    span.description &Rcy;&ucy;&scy;&scy;&kcy;&icy;&jcy;
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Russian
+                  .item(data-percent='36' data-value='de' data-english='German')
+                    span.description Deutsch
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;German
+                  .item(data-percent='23' data-value='it' data-english='Italian')
+                    span.description Italiano
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Italian
+                  .item(data-percent='21' data-value='nl' data-english='Dutch')
+                    span.description Nederlands
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Dutch
+                  .item(data-percent='19' data-value='pt_BR' data-english='Portuguese')
+                    span.description Portugu&ecirc;s(BR)
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Portuguese
+                  .item(data-percent='17' data-value='id' data-english='Indonesian')
+                    span.description Indonesian
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Indonesian
+                  .item(data-percent='12' data-value='lt' data-english='Lithuanian')
+                    span.description Lietuvi&uogon;
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Lithuanian
+                  .item(data-percent='11' data-value='tr' data-english='Turkish')
+                    span.description T&uuml;rk&ccedil;e
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Turkish
+                  .item(data-percent='10' data-value='kr' data-english='Korean')
+                    span.description &#xD55C;&#xAD6D;&#xC5B4;
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Korean
+                  .item(data-percent='7' data-value='ar' data-english='Arabic')
+                    span.description &#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Arabic
+                  .item(data-percent='6' data-value='hu' data-english='Hungarian')
+                    span.description Magyar
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Hungarian
+                  .item(data-percent='6' data-value='vi' data-english='Vietnamese')
+                    span.description ti&#x1EBF;ng Vi&#x1EC7;t
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Vietnamese
+                  .item(data-percent='5' data-value='sv' data-english='Swedish')
+                    span.description svenska
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Swedish
+                  .item(data-precent='4' data-value='pl' data-english='Polish')
+                    span.description polski
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Polish
+                  .item(data-percent='6' data-value='ja' data-english='Japanese')
+                    span.description &#x65E5;&#x672C;&#x8A9E;
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Japanese
+                  .item(data-percent='0' data-value='ro' data-english='Romanian')
+                    span.description rom&acirc;ne&#x219;te
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Romanian
+      .col-lg-12
+        .footer_bottm
+          .row
+            .col-md-6
+              ul.fotb_left
+                li
+                  a(href='index.html')
+                    .footer_logo
+                      img(src='images/logo1.svg' alt='')
+                li
+                  p
+                    | &copy; 2020 
+                    strong Cursus
+                    | . All Rights Reserved.
+            .col-md-6
+              .edu_social_links
+                a(href='#')
+                  i.fab.fa-facebook-f
+                a(href='#')
+                  i.fab.fa-twitter
+                a(href='#')
+                  i.fab.fa-google-plus-g
+                a(href='#')
+                  i.fab.fa-linkedin-in
+                a(href='#')
+                  i.fab.fa-instagram
+                a(href='#')
+                  i.fab.fa-youtube
+                a(href='#')
+                  i.fab.fa-pinterest-p

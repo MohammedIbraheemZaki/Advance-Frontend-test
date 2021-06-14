@@ -1,0 +1,138 @@
+mixin menu(currentPage)
+  header.header.clearfix
+    button#toggleMenu.toggle_menu(type='button')
+      i.uil.uil-bars
+    button#collapse_menu.collapse_menu
+      i.uil.uil-bars.collapse_menu--icon
+      span.collapse_menu--label
+    #logo.main_logo
+      a(href='index.html')
+        img(src='../../assets/images/logo.svg' alt='')
+      a(href='index.html')
+        img.logo-inverse(src='../../assets/images/ct_logo.svg' alt='')
+    .top-category
+      .ui.compact.menu.cate-dpdwn
+        .ui.simple.dropdown.item
+          a.option_links.p-0(href='#' title='categories')
+            i.uil.uil-apps
+          .menu.dropdown_category5
+            a.item.channel_item(href='#') Development
+            a.item.channel_item(href='#') Business
+            a.item.channel_item(href='#') Finance &amp; Accounting
+            a.item.channel_item(href='#') IT &amp; Software
+            a.item.channel_item(href='#') Office Productivity
+            a.item.channel_item(href='#') Personal Development
+            a.item.channel_item(href='#') Design
+            a.item.channel_item(href='#') Marketing
+            a.item.channel_item(href='#') Lifestyle
+            a.item.channel_item(href='#') Photography
+            a.item.channel_item(href='#') Health &amp; Fitness
+            a.item.channel_item(href='#') Music
+            a.item.channel_item(href='#') Teaching &amp; Academics
+    .search120
+      .ui.search
+        .ui.left.icon.input.swdh10
+          input.prompt.srch10(type='text' placeholder='Search for Tuts Videos, Tutors, Tests and more..')
+          i.uil.uil-search-alt.icon.icon1
+    .header_right
+      ul
+        li
+          a.upload_btn(href='create_new_course.html' title='Create New Course') Create New Course
+        li
+          a.option_links(href='shopping_cart.html' title='cart')
+            i.uil.uil-shopping-cart-alt
+            span.noti_count 2
+        li.ui.dropdown
+          a.option_links(href='#' title='Messages')
+            i.uil.uil-envelope-alt
+            span.noti_count 3
+          .menu.dropdown_ms
+            a.channel_my.item(href='#')
+              .profile_link
+                img(src='../../assets/images/left-imgs/img-6.jpg' alt='')
+                .pd_content
+                  h6 Zoena Singh
+                  p Hi! Sir, How are you. I ask you one thing please explain it this video price.
+                  span.nm_time 2 min ago
+            a.channel_my.item(href='#')
+              .profile_link
+                img(src='../../assets/images/left-imgs/img-5.jpg' alt='')
+                .pd_content
+                  h6 Joy Dua
+                  p Hello, I paid you video tutorial but did not play error 404.
+                  span.nm_time 10 min ago
+            a.channel_my.item(href='#')
+              .profile_link
+                img(src='../../assets/images/left-imgs/img-8.jpg' alt='')
+                .pd_content
+                  h6 Jass
+                  p Thanks Sir, Such a nice video.
+                  span.nm_time 25 min ago
+            a.vbm_btn(href='instructor_messages.html')
+              | View All 
+              i.uil.uil-arrow-right
+        li.ui.dropdown
+          a.option_links(href='#' title='Notifications')
+            i.uil.uil-bell
+            span.noti_count 3
+          .menu.dropdown_mn
+            a.channel_my.item(href='#')
+              .profile_link
+                img(src='../../assets/images/left-imgs/img-1.jpg' alt='')
+                .pd_content
+                  h6 Rock William
+                  p
+                    | Like Your Comment On Video 
+                    strong How to create sidebar menu
+                    | .
+                  span.nm_time 2 min ago
+            a.channel_my.item(href='#')
+              .profile_link
+                img(src='../../assets/images/left-imgs/img-2.jpg' alt='')
+                .pd_content
+                  h6 Jassica Smith
+                  p
+                    | Added New Review In Video 
+                    strong Full Stack PHP Developer
+                    | .
+                  span.nm_time 12 min ago
+            a.channel_my.item(href='#')
+              .profile_link
+                img(src='../../assets/images/left-imgs/img-9.jpg' alt='')
+                .pd_content
+                  p
+                    | Your Membership Approved 
+                    strong Upload Video
+                    | .
+                  span.nm_time 20 min ago
+            a.vbm_btn(href='instructor_notifications.html')
+              | View All 
+              i.uil.uil-arrow-right
+        li.ui.dropdown
+          a.opts_account(href='#' title='Account')
+            img(src='../../assets/images/hd_dp.jpg' alt='')
+          .menu.dropdown_account
+            .channel_my
+              .profile_link
+                img(src='../../assets/images/hd_dp.jpg' alt='')
+                .pd_content
+                  .rhte85
+                    h6 Joginder Singh
+                    .mef78(title='Verify')
+                      i.uil.uil-check-circle
+                  span gambol943@gmail.com
+              a.dp_link_12(href='my_instructor_profile_view.html') View Instructor Profile
+            .night_mode_switch__btn
+              a#night-mode.btn-night-mode(href='#')
+                i.uil.uil-moon
+                |  Night mode
+                span.btn-night-mode-switch
+                  span.uk-switch-button
+            a.item.channel_item(href='instructor_dashboard.html') Cursus dashboard
+            a.item.channel_item(href='membership.html') Paid Memberships
+            a.item.channel_item(href='setting.html') Setting
+            a.item.channel_item(href='help.html') Help
+            a.item.channel_item(href='feedback.html') Send Feedback
+            a.item.channel_item(href='sign_in.html') Sign Out
+
+  

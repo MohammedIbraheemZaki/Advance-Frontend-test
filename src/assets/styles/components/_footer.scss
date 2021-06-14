@@ -1,0 +1,29 @@
+/* src/assets/styles/components/_footer.scss  */
+
+.footer {
+  background: $lightseagreen;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  text-align: center;
+  p {
+    font-size: 12px;
+  }
+  a {
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    color: inherit;
+  }
+}
+
+/*
+  Responsive
+*/
+
+@media screen and(max-width: $grid-width) {
+
+}
